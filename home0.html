@@ -19,7 +19,7 @@
 
          $(function(){
 
-             var saniye = 5400;
+             var saniye = 5000;
              var sayacYeri = $("div.sayac span");
 
              $.sayimiBaslat = function(){
@@ -27,6 +27,7 @@
                      saniye--;
                      sayacYeri.text(saniye);
                      console.log(saniye);
+                 } else {
                  }
              }
 
@@ -36,7 +37,7 @@
          });
 
      </script>
-      <div class="sayac text-center"><span></span> saniye sonra metin gelecektir.</div>
+      <div class="sayac"><span></span> saniye sonra metin gelecektir.</div>
     <script src="carpma.js" charset="utf-8"></script>
     <script src="bolme.js" charset="utf-8"></script>
     <script src="toplama.js" charset="utf-8"></script>
