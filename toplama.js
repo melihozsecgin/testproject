@@ -1,2 +1,2 @@
-var toplam = 5 + 2;
+var toplam = 8 + 2;
 return toplam;
