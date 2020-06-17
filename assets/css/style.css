@@ -89,6 +89,13 @@ details[open] summary
     border-bottom: 1px solid #aaa;
     margin-bottom: .5em;
 }
-/*
 
-*/
+/*------------------------------*/
+/* BORDER RADIUS */
+.rad25 {
+  border-radius: 1rem !important;
+}
+.rad0 {
+  border-radius: 0px !important;
+}
+/*------------------------------*/
