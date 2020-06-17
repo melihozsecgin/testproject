@@ -1,6 +1,6 @@
 $(function(){
 
-    var seconds = 22920;
+    var seconds = 14400;
     var counterDiv = $("div.counter span");
 
     $.startCounter = function(){
@@ -16,5 +16,6 @@ $(function(){
     }
     counterDiv.text(seconds);
     setInterval("$.startCounter()", 1000);
+
 
 });
