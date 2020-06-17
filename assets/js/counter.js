@@ -1,16 +1,16 @@
 $(function(){
 
-    var saniye = 7200;
-    var sayacYeri = $("div.sayac span");
+    var seconds = 7200;
+    var counterDiv = $("div.counter span");
 
-    $.sayimiBaslat = function(){
-        if(saniye > 1){
-            saniye--;
-            sayacYeri.text(saniye);
-            console.log(saniye);
+    $.startCounter = function(){
+        if(seconds > 1){
+            seconds--;
+            counterDiv.text(seconds);
+            console.log(seconds);
         }
     }
-    sayacYeri.text(saniye);
-    setInterval("$.sayimiBaslat()", 1000);
+    counterDiv.text(seconds);
+    setInterval("$.startCounter()", 1000);
 
 });
