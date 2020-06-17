@@ -32,3 +32,7 @@ $(document).ready(function() {
     }
   })
 });
+
+function gitHubLogo() {
+  alert('https://github.com/');
+}

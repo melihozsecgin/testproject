@@ -31,12 +31,12 @@ body {
     border: 1px solid #fff;
   }
   .btn-hr {
-    background-color: #f15f22;
+    background-color: #f15f22 !important;
     border: none !important;
     outline: none !important;
   }
   .btn-hr:hover {
-    background-color: #ff814d;
+    background-color: #ff814d !important;
     border: none !important;
     outline: none !important;
   }
