@@ -1,7 +1,53 @@
 /* MAIN STYLE */
 body {
-  font-family: Arial;
+  background-color: #f3f3f3;
 }
+  .setCounter {
+    background-color: dodgerblue;
+    border: none;
+    outline: none;
+    color: white;
+    padding: 5px 15px;
+    transition: all .2s;
+    border: 1px solid #fff;
+  }
+  .setCounter:hover {
+    background-color: #fff;
+    color: dodgerblue;
+    border-color: dodgerblue;
+    outline: blue;
+  }
+  .setCounter:focus {
+  }
+  .counterValue {
+    padding: 5px 10px;
+    border: none;
+    background-color: #dedede;
+    border: 1px solid #fff;
+  }
+  .counterValue:focus {
+    border: none;
+    outline: none;
+    border: 1px solid #fff;
+  }
+  .btn-hr {
+    background-color: #f15f22;
+    border: none !important;
+    outline: none !important;
+  }
+  .btn-hr:hover {
+    background-color: #ff814d;
+    border: none !important;
+    outline: none !important;
+  }
+  .btn-hr:hover {
+    border: none !important;
+    outline: none !important;
+    box-shadow: none !important;
+  }
+  .bg-hr {
+    background-color: #f15f22;
+  }
 
 .text-center {
   text-align: center;
