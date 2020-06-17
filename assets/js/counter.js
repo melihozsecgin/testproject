@@ -8,6 +8,10 @@ $(function(){
             seconds--;
             counterDiv.text(seconds);
             console.log(seconds);
+            setTitle(seconds + ' seconds left - Home Page');
+        }
+        else {
+          resetTitle();
         }
     }
     counterDiv.text(seconds);
