@@ -17,5 +17,4 @@ $(function(){
     counterDiv.text(seconds);
     setInterval("$.startCounter()", 1000);
 
-
 });
